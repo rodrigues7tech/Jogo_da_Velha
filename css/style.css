@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+.container{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    width: 100vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+}
+
+#top-game{
+    background-color: lightgreen;
+    border-radius: 20px 20px 0 0;
+    padding: 0.7rem;
+}
+
+#tabuleiro{
+    background-color: beige;
+    padding: 2rem;
+    border-radius: 0 0 20px 20px;
+}
+
+.casa{
+    width: 100px;
+    height: 100px;
+    margin: 10px 5px;
+    background-color: lightgreen;
+    cursor: pointer;
+    border-radius: 25px 0;
+}
+
+#reset{
+    padding: 10px 25px;
+    color: red;
+    font-weight: 900;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
